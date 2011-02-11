@@ -21,14 +21,23 @@ namespace FGAPI_wrapper {
 
 	public ref class FGAPIDotNET
 	{
+		void MarshalString ( String ^ s, wstring& os ) {
+			using namespace Runtime::InteropServices;
+			const wchar_t* chars = 
+				(const wchar_t*)(Marshal::StringToHGlobalUni(s)).ToPointer();
+			os = chars;
+			Marshal::FreeHGlobal(IntPtr((void*)chars));
+		}
+
 	public :
-		System::String ^test()
+		System::String ^test(System::String ^path)
 		{
 			System::String ^status;
 			// Create a new geodatabase in the current directory.
 			  long hr;
 			  FileGDBAPI::Geodatabase geodatabase;
-			  std::wstring GeoDatabase = L"C:/Temp/GdbManagement.gdb";
+			  std::wstring GeoDatabase;// = path;//L"C:/Temp/GdbManagement.gdb";
+			  MarshalString(path,GeoDatabase);
 			  if ((hr = FileGDBAPI::CreateGeodatabase(GeoDatabase, geodatabase)) != S_OK)
 			  {
 				status = "An error occurred while creating the geodatabase.";
