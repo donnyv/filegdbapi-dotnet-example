@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FGAPI_wrapper", "FGAPI_wrapper\FGAPI_wrapper.vcproj", "{25288BE3-49C5-4A04-8235-6E0272C39074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FGAPI_Test", "FGAPI_Test\FGAPI_Test.csproj", "{C2B87BB4-D27F-4F8E-9945-FC58185AA941}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Debug|Win32.Build.0 = Debug|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Release|Any CPU.ActiveCfg = Release|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Release|Win32.ActiveCfg = Release|Win32
+		{25288BE3-49C5-4A04-8235-6E0272C39074}.Release|Win32.Build.0 = Release|Win32
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{C2B87BB4-D27F-4F8E-9945-FC58185AA941}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
