@@ -20,8 +20,14 @@ namespace FGAPI_Test
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Cursor.Current = Cursors.WaitCursor;
+
             FGAPIDotNET T = new FGAPIDotNET();
-            MessageBox.Show(T.test());
+            MessageBox.Show(T.test(textBox1.Text));
+
+            Cursor.Current = null;
         }
+
+        
     }
 }
